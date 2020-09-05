@@ -17,18 +17,20 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">IF Sales - Menu </div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Inicio <i class="fa fa-home float-right"></i></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Punto de Venta <i class="fa fa-shopping-cart float-right"></i></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Inventario <i class="fa fa-calendar-check-o float-right"></i></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Salir <i class="fa fa-power-off float-right"></i></a>
+        <!-- <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a> -->
       </div>
     </div>
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle"><i class="fa fa-bars"></i></button>
+        <button class="btn" id="menu-toggle"><i class="fa fa-bars"></i></button>
+
+        <h4 class="ml-3">IF Sales</h4>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,17 +52,47 @@
                 <a class="dropdown-item" href="#">Configuracion</a>
                 <!-- <a class="dropdown-item" href="#">Another action</a> -->
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Cerrar Aplicacion</a>
+                <a class="dropdown-item" href="#">Cerrar Sesión</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
 
-      <div class="container-fluid">
-        <h1 class="mt-4">Simple Sidebar</h1>
+      <div class="container-fluid ">
+        <h1 class="mt-4">Inicio</h1>
+
+        <div class="row mb-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
         <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+
+        
       </div>
     </div>
 
