@@ -43,4 +43,5 @@ margin-left: 0;
   }
 }
 
-button.btn#menu-toggle i.fa.fa-bars { color: #fff; }
+button.btn#menu-toggle i.fa.fa-bars,
+a.navbar-brand { color: #fff; }
